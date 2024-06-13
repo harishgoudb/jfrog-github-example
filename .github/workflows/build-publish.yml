@@ -26,7 +26,7 @@ jobs:
               id: setup-cli
               env:
                 JF_URL: https://${{ secrets.JF_URL }}/
-                JF_PROJECT: 'githubtest'
+                JF_PROJECT: 'ghtest'
               with:
                   oidc-provider-name: githubtest
                   oidc-audience: jfrog-github-oidc
